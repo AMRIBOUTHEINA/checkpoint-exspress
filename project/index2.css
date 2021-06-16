@@ -1,0 +1,43 @@
+  h1{
+      margin-left: 500px;
+  }
+  
+  
+  nav a{
+    text-decoration: none;
+    color: green;
+    margin-left: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: oblique;
+    margin-left: 200px;
+    margin-bottom: 80px;
+    
+
+}
+nav{
+    background-color: darkkhaki;
+}
+p{
+    margin-left:200px;
+    font-size:30px;
+
+}
+body{
+    background-color: chocolate;
+}
+.imgvideo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img5{
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+}
+.video{
+margin-right:50px ;
+ width: 500px;
+ height: 300px;
+}
