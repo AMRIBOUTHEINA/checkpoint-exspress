@@ -5,7 +5,7 @@ const d = new Date( Date.now());
 function condition(req,res,next) {
     const day =d.getDay()
     const hour =d.getHours();
-  if((day >=2 && day<=6 ) /*&& (hour >=9 && hour<=20) */=== false ) {
+  if((day >=2 && day<=6 ) && (hour >=9 && hour<=17) === false ) {
     console.log ("close");
     res.send('The web application is not available')
   }  
